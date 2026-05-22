@@ -248,6 +248,19 @@ section {
   width: 100%;
 }
 
+.social {
+  background: var(--gradient-lime-cyan);
+  color: var(--bg-primary);
+  font-weight: 600;
+  font-size: 2rem;
+  border-radius: 5px;
+  border: none;
+  font-family: var(--font-heading);
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(67, 220, 240, 0.2);
+  transition: var(--transition-smooth);
+}
+
 .cta-button {
   background: var(--gradient-lime-cyan);
   color: var(--bg-primary);
